@@ -1,0 +1,25 @@
+html {
+    height: 100%;
+}
+body {
+    display:flex;
+    align-items:center;
+    min-height: 100%;
+    font-family: monospace;
+    font-size: 1em;
+}
+div {
+    display : block;
+}
+
+.col-sm-2.itemBox {
+    height: 100px;
+}
+.element {
+    background:#f2f2f2;
+    position:absolute;
+    width:60px;
+    height:60px;
+    top:20px;
+    right:20px;
+}
